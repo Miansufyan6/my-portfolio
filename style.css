@@ -28,9 +28,11 @@ top:0;
 width:100%;
 z-index:1000;
 }
+
 .experience-card{
-    padding: 35px;
+padding:35px;
 }
+
 
 /* NAVBAR */
 
@@ -218,8 +220,6 @@ transform:translateY(-8px) scale(1.05);
 }
 
 
-
-
 /* PROFILE */
 
 
@@ -231,10 +231,18 @@ justify-content:center;
 animation:float 4s infinite ease-in-out;
 
 }
+
+
+/* ABOUT TEXT */
+
 .about-text{
-    padding: 60px;
-    margin: 20px;
+
+padding:60px;
+margin:20px;
+
 }
+
+
 
 .glass-circle{
 
@@ -252,7 +260,6 @@ padding:15px;
 box-shadow:
 0 0 40px #00d9ff,
 inset 0 0 30px rgba(255,255,255,.2);
-
 
 }
 
@@ -289,9 +296,6 @@ transform:scale(1.1) rotate(5deg);
 }
 
 
-
-
-
 /* GLASS CARDS */
 
 
@@ -321,8 +325,6 @@ transform:translateY(-10px) rotateX(5deg);
 
 
 
-
-
 /* TITLE */
 
 
@@ -340,8 +342,6 @@ font-size:40px;
 color:#00e5ff;
 
 }
-
-
 
 
 
@@ -417,9 +417,7 @@ background:linear-gradient(90deg,#00d9ff,#0077ff);
 
 
 
-
-
-/* CERTIFICATE PROJECT */
+/* PROJECT */
 
 
 .projects-container{
@@ -449,40 +447,6 @@ color:#00d9ff;
 margin-bottom:20px;
 
 }
-
-
-
-
-.cert-btn{
-
-display:inline-block;
-
-margin-top:20px;
-
-padding:12px 20px;
-
-border-radius:15px;
-
-border:1px solid #00d9ff;
-
-color:#00d9ff;
-
-text-decoration:none;
-
-transition:.3s;
-
-}
-
-
-
-.cert-btn:hover{
-
-background:#00d9ff;
-color:white;
-
-}
-
-
 
 
 
@@ -539,10 +503,14 @@ transition:.4s;
 
 }
 
+
 .timeline-item {
-    padding: 35px;
-    margin-bottom: 30px;
+
+padding:35px;
+margin-bottom:30px;
+
 }
+
 
 .contact-icon:hover{
 
@@ -553,12 +521,17 @@ background:#00d9ff;
 color:white;
 
 }
-footer{
-    text-align: center;
-    padding: 100px;
-    margin: 30px;
-}
 
+
+footer{
+
+text-align:center;
+
+padding:100px;
+
+margin:30px;
+
+}
 
 
 
@@ -611,8 +584,6 @@ opacity:0;
 }
 
 }
-
-
 
 
 
@@ -671,11 +642,33 @@ transition:.4s;
 transform:translateX(0);
 
 }
+
+
+/* ABOUT MOBILE FIX */
+
 .about-text{
-    padding: 100px;
-    margin: 30px;
+
+padding:20px;
+
+margin:0;
 
 }
+
+
+.about-text p{
+
+font-size:15px;
+
+line-height:1.8;
+
+text-align:left;
+
+display:block;
+
+width:100%;
+
+}
+
 
 .hero{
 
@@ -739,6 +732,7 @@ grid-template-columns:1fr;
 }
 
 
+
 @media(max-width:500px){
 
 
@@ -775,6 +769,24 @@ font-size:32px;
 .contact-container{
 
 padding:25px;
+
+}
+
+
+/* SMALL MOBILE ABOUT */
+
+.about-text{
+
+padding:15px;
+
+}
+
+
+.about-text p{
+
+font-size:14px;
+
+line-height:1.7;
 
 }
 
